@@ -61,7 +61,7 @@ A much better way to install and manage Java dependencies and something that we 
 
 <div class="ordered-list"> 
 
-1. Install sdkman: `curl -s “https://get.sdkman.io” | bash`
+1. Install sdkman: `curl -s "https://get.sdkman.io" | bash`
 2. Restart the terminal or just source the sdk: `source "$HOME/.sdkman/bin/sdkman-init.sh"`
 2. Check the version to be sure: `sdk version`
 3. Install the minimum version of Java required: `sdk install java 9.0.7-zulu`
