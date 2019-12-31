@@ -114,7 +114,7 @@ convenient to have your web app accessible from a different device on the same n
 very helpful during development esp. if you are trying to access your web app from a mobile
 device for, say, testing and debugging the app’s UI.
 
-Alpas makes it really easy to serve your web app over an IP address. To do so add `SERVE_EXTERNALLY=true`
+Alpas makes it really easy to serve your web app over an IP address. To do so add `ENABLE_NETWORK_SHARE=true`
 in your `.env` file. Build and re-serve your app and it should be available from both
 `http://localhost:<port>` and `http://<local-device-ip>:<port>`.
 
